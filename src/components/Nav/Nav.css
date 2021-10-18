@@ -1,0 +1,11 @@
+.navber{
+    padding: 5px;
+    background-color: darksalmon; 
+    
+}
+.navlink{
+    margin: 5px;
+    padding: 5px;
+    text-decoration: none; 
+    color: darkred;
+}

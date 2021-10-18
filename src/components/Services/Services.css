@@ -1,0 +1,13 @@
+.Services{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+    padding: 20px;
+    margin: 20px;
+    background-color: rgb(246, 255, 255);
+    
+}
+.title{
+    color: brown;
+}

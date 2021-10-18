@@ -1,0 +1,18 @@
+.Service img{
+   width: 400px;
+   height: 400px;
+    
+}
+.Service{
+    padding: 10px;
+    background-color: ghostwhite;
+    border: 2px solid lightpink;
+    border-radius: 10px;
+}
+.Service button{
+    padding: 5px 20px;
+    border: 2px solid lightpink;
+    border-radius: 5px;
+    background-color: lightcoral;
+    color: rgb(87, 26, 4);
+}
