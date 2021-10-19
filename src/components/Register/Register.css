@@ -1,0 +1,12 @@
+.field{
+    margin: 10px;
+    padding: 5px 20px;
+    border: 2px solid lightsalmon;
+    border-radius: 5px;
+}
+.register{
+    background-color: lightcyan;
+    height: 300px;
+    margin: 20px;
+    
+}
