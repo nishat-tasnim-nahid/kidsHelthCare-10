@@ -9,3 +9,7 @@
     text-decoration: none; 
     color: darkred;
 }
+.btn{
+    border: 2px solid rgb(14, 26, 26);
+    background-color: firebrick;
+}

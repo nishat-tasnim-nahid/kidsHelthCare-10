@@ -1,0 +1,15 @@
+.footer-container{
+    background-color: mistyrose;
+    margin: 10px;
+    border-radius: 5px;
+}
+.footer-container button{
+ background-color: orange;
+ border: 2px solid rgb(95, 69, 4);
+ border-radius: 3px;
+}
+.Footer{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+   
+}

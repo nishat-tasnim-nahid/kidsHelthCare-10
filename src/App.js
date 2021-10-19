@@ -11,6 +11,9 @@ import AuthProvider from './context/AuthProvider';
 import PrivateRoute from './components/PrivateRoute/PrivateRoute';
 import Details from './components/Details/Details';
 import Contact from './components/Contact/Contact';
+import Footer from './components/Footer/Footer';
+import NotFound from './components/NotFound/NotFound';
+
 
 function App() {
   return (
@@ -40,7 +43,13 @@ function App() {
             <Route exact path='/login'>
               <Login></Login>
             </Route>
+            <Route exact path="*">
+            <NotFound></NotFound>
+          </Route>
           </Switch>
+          
+            <Footer></Footer>
+         
         </BrowserRouter>
       </AuthProvider>
 

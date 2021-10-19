@@ -6,9 +6,9 @@ const Register = () => {
         <div className="register">
             <h2 className='title'>Register</h2>
             <form>
-                <input className='field' type="email" placeholder="Enter your email"/> <br />
+                <input className='field' type="email" placeholder="Enter your email" /> <br />
                 <input className='field' type="password" placeholder="Enter your password" /><br />
-                <input className='field' type="submit" value="submit"/>
+                <input className='field' type="submit" value="submit" />
             </form>
         </div>
     );

@@ -4,9 +4,9 @@ import { Link } from 'react-router-dom';
 import useAuth from '../../hooks/useAuth'
 
 const Login = () => {
-    const {signInUsingGoogle}= useAuth();
+    const { signInUsingGoogle } = useAuth();
     return (
-        <div>
+        <div className="register">
             <h2 className='title'>Please Login</h2>
             <button className='field' onClick={signInUsingGoogle}>With Google</button> <br />
             <Link className='navlink' to='/register'>Do you have Account?</Link>

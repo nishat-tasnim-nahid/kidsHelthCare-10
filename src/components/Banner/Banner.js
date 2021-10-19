@@ -5,7 +5,7 @@ const Banner = () => {
     return (
         <div className="banner">
             <div>
-            <img className='banner-img' src="https://st.depositphotos.com/3029723/4758/i/600/depositphotos_47580711-stock-photo-happy-kids-jumping-together.jpg" alt="" />
+                <img className='banner-img' src="https://st.depositphotos.com/3029723/4758/i/600/depositphotos_47580711-stock-photo-happy-kids-jumping-together.jpg" alt="" />
             </div>
             <div>
                 <h1 className='title'>PREVENTION IS BETTER THAN CURE</h1>
