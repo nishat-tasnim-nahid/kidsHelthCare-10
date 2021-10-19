@@ -1,6 +1,7 @@
 .footer-container{
     background-color: mistyrose;
     margin: 10px;
+    margin-bottom: 20px;
     border-radius: 5px;
 }
 .footer-container button{
@@ -12,4 +13,9 @@
     display: grid;
     grid-template-columns: repeat(3,1fr);
    
+}
+@media only screen and (max-width:488px){
+    .Services{
+        grid-template-columns: repeat(1,1fr);
+    }
 }

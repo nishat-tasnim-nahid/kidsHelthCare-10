@@ -11,3 +11,8 @@
 .title{
     color: brown;
 }
+@media only screen and (max-width:488px){
+    .Services{
+        grid-template-columns: repeat(1,1fr);
+    }
+}
